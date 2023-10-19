@@ -1,0 +1,17 @@
+#carousel-inicio .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    text-align: end;
+}
+
+.carousel-indicators {
+    right: 0px;
+    left: auto;
+}
+
+section {
+    margin-top: 70px;
+}

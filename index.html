@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/cdn_css_bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">    
+
+</head>
+<body class="bg-ligth">
+    <header>
+        <nav class="navbar bg-dark border-bottom border-body text-light justify-content-end" data-bs-theme="dark">
+            <div class="container">
+                <h1>HistoriCar</h1>
+                <a href="#destaque" class="nav-link">Destaques</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="carousel-inicio" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/03/26/22/32/fast-1281628_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Lotus 25</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/01/26/18/52/porsche-4795517_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Porsche GT3</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/09/07/22/32/koenigsegg-438460_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Koenigsegg One:1</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/07/19/12/16/car-8136751_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Aston Martin</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/07/12/10/03/car-8122195_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Alfa Romeo Giulia</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/10/09/07/35/road-8303504_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Mercedes Classe E</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-inicio" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-inicio" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-inicio" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="5"></button>
+            </div>
+        </div>
+    </div>
+
+    <section class="container" id="destaque">
+        <div class="row">
+            <div class="h4 pb-2 mb-4 text-dark border-bottom border-dark">
+                <strong>Matérias em Destaque</strong>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card text-bg-dark mb-3">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/26/22/32/fast-1281628_1280.jpg" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lotus 25</h5>
+                        <h6 class="card-subtitle mb-3">Lenda da Fórmula 1</h6>
+                        <p class="card-text" data-card-content="cardContent1">O Lotus 25 é um dos carros de corrida mais icônicos da história da Fórmula 1. Projetado por Colin Chapman e sua equipe na Lotus, o modelo foi introduzido em 1962. O carro revolucionou a Fórmula 1 ao ser um dos primeiros a apresentar um chassi monocoque leve, o que o tornou ágil e rápido. Pilotado por lendas como Jim Clark, o Lotus 25 conquistou vários campeonatos de pilotos e construtores na década de 1960.</p>
+                        <button data-card-button="leiaMaisBtn1" class="btn btn-light">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark mb-3">
+                    <img src="https://cdn.pixabay.com/photo/2020/01/26/18/52/porsche-4795517_1280.jpg" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche GT3</h5>
+                        <h6 class="card-subtitle mb-3">Um Esportivo Raiz</h6>
+                        <p class="card-text" data-card-content="cardContent2" >A linha de carros Porsche GT3 é conhecida por sua participação em corridas de resistência, incluindo as 24 Horas de Le Mans. Esses carros de corrida são baseados nos Porsche 911 de produção, mas são altamente modificados para competir em diferentes categorias. Os GT3 são reconhecidos por sua confiabilidade, desempenho e sucesso em corridas de longa duração.</p>
+                        <button data-card-button="leiaMaisBtn2" class="btn btn-light">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark mb-3">
+                    <img src="https://cdn.pixabay.com/photo/2014/09/07/22/32/koenigsegg-438460_1280.jpg" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Koenigsegg One:1</h5>
+                        <h6 class="card-subtitle mb-3">O hipercarro</h6>
+                        <p class="card-text" data-card-content="cardContent3">O Koenigsegg One:1 é um hipercarro sueco conhecido por seu nome, que se refere à proporção de peso para potência de 1:1. É um dos carros de produção mais potentes do mundo, com um motor V8 de 5.0 litros que produz 1.360 cavalos de potência. Embora não seja um carro de corrida oficial, o One:1 é frequentemente usado em eventos de alta velocidade e demonstrações em pistas.</p>
+                        <button data-card-button="leiaMaisBtn3" class="btn btn-light">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark mb-3">
+                    <img src="https://cdn.pixabay.com/photo/2023/07/19/12/16/car-8136751_1280.jpg" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Aston Martin</h5>
+                        <h6 class="card-subtitle mb-3">Uma bela história nas corridas</h6>
+                        <p class="card-text" data-card-content="cardContent4">A Aston Martin tem uma longa história nas corridas, com destaque para as 24 Horas de Le Mans. A marca britânica conquistou vitórias memoráveis, como a vitória geral em Le Mans em 1959 com o Aston Martin DBR1. Além disso, a Aston Martin competiu em diversas séries de corrida, incluindo a Fórmula 1, com equipes próprias e como fornecedora de motores.</p>
+                        <button data-card-button="leiaMaisBtn4" class="btn btn-light">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark mb-3">
+                    <img src="https://cdn.pixabay.com/photo/2023/07/12/10/03/car-8122195_1280.jpg" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Alfa Romeo Giulia</h5>
+                        <h6 class="card-subtitle mb-3">Um sedan esportivo com tempero italiano</h6>
+                        <p class="card-text" data-card-content="cardContent5">A Alfa Romeo Giulia tem uma história rica no automobilismo. Em particular, a versão esportiva, Giulia Quadrifoglio, é notável. Foi projetada para competir com carros de alto desempenho, como o BMW M3. A Giulia Quadrifoglio participou de várias competições de turismo e desportivas, demonstrando o compromisso da Alfa Romeo com a excelência esportiva.</p>
+                        <button data-card-button="leiaMaisBtn5" class="btn btn-light">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark mb-3">
+                    <img src="https://cdn.pixabay.com/photo/2023/10/09/07/35/road-8303504_1280.jpg" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercedes Classe E</h5>
+                        <h6 class="card-subtitle mb-3">A Elegância em 4 rodas</h6>
+                        <p class="card-text" data-card-content="cardContent6">Embora o Mercedes-Benz Classe E seja mais conhecido como um sedan de luxo, a Mercedes-Benz também produziu versões de alto desempenho, como o AMG E63. Esses carros participam de competições de turismo, como o DTM (Deutsche Tourenwagen Masters), onde a Mercedes competiu com grande sucesso.</p>
+                        <button data-card-button="leiaMaisBtn6" class="btn btn-light">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+        &copy HistoriCar - 2023
+        </div>
+    </footer>
+
+    <script src="./lib/cdn_js_bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
